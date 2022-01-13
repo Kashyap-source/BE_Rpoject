@@ -4,3 +4,9 @@ from django.shortcuts import render, HttpResponse
 
 def index(request):
     return render(request, 'index.html')
+
+def gui(request):
+    return render(request, 'gui.js')
+
+def demo(request):
+    return render(request, 'demo.css')
