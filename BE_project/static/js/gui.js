@@ -403,7 +403,7 @@ class SQLiteWebJS {
 					// Delete 
 					var img = document.createElement('img');
 					img.setAttribute('data-name', 'deleteRowButton');
-					img.src = './image/error.png';
+					img.src = 'D:\Project\BE_PRoject\BE_Project\BE_Rpoject\BE_project\image\error.png';
 					img.classList.add('SQLite-WebJS-browser-img-click');
 					img.onclick = function () {
 						self.execute("Delete from " + options.name 
@@ -728,12 +728,12 @@ class SQLiteWebJS {
 				self.reverseDisplay(imgPlus.id);
 			};
 			imgPlus.id = structure + 'Plus';
-			imgPlus.src = './image/plus.png';
+			imgPlus.src = 'D:\Project\BE_PRoject\BE_Project\BE_Rpoject\BE_project\image\plus.png';
 			imgPlus.classList.add('SQLite-WebJS-browser-img-click');
 			structureTitle.parentNode.insertBefore(imgPlus, structureTitle);
 			imgPlus.onclick = fDisplay;
 			imgMinus.id = structure + 'Minus';
-			imgMinus.src = './image/minus.png';
+			imgMinus.src = 'D:\Project\BE_PRoject\BE_Project\BE_Rpoject\BE_project\image\minus.png';
 			imgMinus.classList.add('SQLite-WebJS-browser-img-click');
 			imgMinus.style.display = 'none';
 			structureTitle.parentNode.insertBefore(imgMinus, structureTitle);
