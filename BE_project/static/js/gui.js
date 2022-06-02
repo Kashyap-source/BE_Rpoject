@@ -403,7 +403,7 @@ class SQLiteWebJS {
 					// Delete 
 					var img = document.createElement('img');
 					img.setAttribute('data-name', 'deleteRowButton');
-					img.src = 'D:\Project\BE_PRoject\BE_Project\BE_Rpoject\BE_project\image\error.png';
+					img.src = '.static\Image\error.png';
 					img.classList.add('SQLite-WebJS-browser-img-click');
 					img.onclick = function () {
 						self.execute("Delete from " + options.name 
